@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+import SearchMovies from './SearchMovies'
 
 class Main extends React.Component {
   render() {
     return (
-      <h1>Cam's Movie Search</h1>
+      <div className='container'>
+        <h1 className='title'>Cam's Movie Search</h1>
+        <SearchMovies />
+      </div>
     )
   }
 }
